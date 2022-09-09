@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
-* main - print the strings in the put function
-* 
-* Description: using the main function
-* this program prints "Programming is like building a multilingual puzzle
-* Return: 0
-*/
+ * main - print the strings in the put function
+ *
+ * Description: using the main function
+ * this program prints "Programming is like building a multilingual puzzle
+ * Return: 0
+ */
 int main(void)
 {
 	char c;
@@ -14,6 +14,7 @@ int main(void)
 	long li;
 	long long lli;
 	float f;
+
 	printf("Size of a char: %1d byte(s)\n", sizeof(c));
 	printf("Size of an int: %1d byte(s)\n", sizeof(i));
 	printf("Size of a long int: %1d byte(s)\n", sizeof(li));
