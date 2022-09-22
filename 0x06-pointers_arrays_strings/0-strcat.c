@@ -6,7 +6,7 @@
 *@dest: String that will be appended
 *@src: String to be concatenated upon
 *
-* Return: returns poiner to @dest
+* Return: returns pointer to @dest
 */
 
 char *_strcat(char *dest, char *src)
@@ -18,5 +18,5 @@ char *_strcat(char *dest, char *src)
 	for (index = 0; src[index]; index++)
 		dest[dest_len++] = src[index];
 
-	return (dest);
+	return (dest)
 }
